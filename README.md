@@ -1,0 +1,1 @@
+This repository demonstrates a subtle floating-point precision issue in Julia. The `myfunction` function aims to return the square of positive inputs and the negation of negative inputs. However, extremely small negative numbers might be incorrectly returned as slightly positive values due to floating-point limitations. The solution demonstrates a more robust approach.
